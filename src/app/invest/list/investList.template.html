@@ -1,0 +1,19 @@
+<div class="top">
+	<span class="back" (click)='goBack()'><</span>
+	{{title}}
+</div>
+
+<div class='list'>
+	<div class="item" *ngFor="let investList of investLists" (click)='gotoDetail(investList)'>
+		<div class="up">
+			<div class="left">{{investList.name}}</div>
+			<div class="right">{{investList.description}}</div>
+		</div>
+		<div class="down">
+			<div class="icon">icon</div>
+			<div class='rate'>{{investList.rate}}</div>
+			<div class='term'>{{investList.term}}</div>
+			<div>></div>
+		</div>
+	</div>
+</div>

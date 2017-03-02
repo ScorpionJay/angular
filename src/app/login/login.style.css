@@ -1,0 +1,60 @@
+.top {
+	background-color: #5C6BC2;
+	line-height: 50px;
+	color: #fff;
+	font-size: 20px;
+	position: fixed;
+	top:0;
+	width: 100%;
+	display: flex;
+}
+
+.left {
+	flex: 1;
+	padding-left: 10px;
+}
+.center {
+	flex: 1;
+	text-align: center;
+}
+.right {
+	flex: 1
+}
+
+.content {
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+.logo {
+	line-height: 80px;
+	text-align: center;
+}
+
+.logo .logoImg {
+	border-radius: 100%;
+	margin-top: 20px;
+	border: 5px #DDDDDD solid;
+	width: 80px;
+}
+
+.form input {
+	width: 100%;
+	line-height: 20px;
+	height: 30px;
+	border: 1px #eee solid;
+	padding: 5px;
+	font-size: 15px;
+	color: #999;
+}
+
+.login {
+	background-color: #5C6BC2;
+	line-height: 45px;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	margin:10px 10px 0px 10px;
+}

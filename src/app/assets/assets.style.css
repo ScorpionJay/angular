@@ -1,0 +1,22 @@
+.top {
+	background-color: #5C6BC2;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 20px;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
+.center {
+	float: left;
+	margin-left:50%;
+}
+
+
+.content {
+	margin-top: 55px;
+	margin-bottom: 55px;
+	color:red;
+}

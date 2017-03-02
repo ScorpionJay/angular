@@ -1,0 +1,19 @@
+<my-tab name='投资'></my-tab>
+
+<div class='list container'>
+	<div class="item" *ngFor="let invest of invests" (click)='gotoDetail(invest)'>
+		<div class="up">
+			<div class="left">{{invest.type}}</div>
+			<div class="right">{{invest.productDesc}}</div>
+		</div>
+		<div class="down">
+			<div class="icon"><i class="fa fa-futbol-o" aria-hidden="true"></i></div>
+			<div class='rate'>{{invest.yearRate}}</div>
+			<div class='term'>{{invest.typeTerm}}</div>
+			<div>></div>
+		</div>
+	</div>
+</div>
+
+
+<my-nav active='invest'></my-nav>

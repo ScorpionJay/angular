@@ -1,0 +1,49 @@
+.top {
+	background-color: #5C6BC2;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 20px;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
+.center {
+	float: left;
+	margin-left:50%;
+}
+
+.more {
+	float: right;
+	margin-right: 5px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+
+
+.item {
+	display: flex;
+	padding: 15px 5px;
+	background-color: #fff;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #404040;
+}
+.item .itemLeft {
+	flex: 1;
+	color: #4C4C4C;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.fa {
+	font-size: 18px;
+}
+
+.fa + span {
+	margin-left: 10px; 
+}

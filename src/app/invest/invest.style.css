@@ -1,0 +1,64 @@
+.top {
+	background-color: rgb(255, 116, 96);
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 20px;
+	top:0;
+	width: 100%;
+			height: 3rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+}
+
+
+
+.item {
+	width: 100%;
+	margin-top: 1px;
+	border-bottom: 20px #eee solid;
+	background-color: #fff;
+	padding: 15px 0px;
+}
+
+.list .up {
+	width: 100%;
+    overflow: hidden;
+    border-bottom: solid 1px #e1e1e1;
+}
+.list .up .left{
+	float: left;
+	color: #000;
+
+}
+.list .up .right{
+	float: right;
+	color: #999;
+	
+}
+
+
+.list .down {
+	    overflow: hidden;
+    margin-top: 10px;
+    padding: 0px 15px 0px 15px;
+}
+
+.icon {
+	width: 15%;
+    float: left;
+    line-height: 30px;
+}
+
+.rate {
+	width: 40%;
+    float: left;
+    line-height: 30px;
+}
+
+.term {
+	width: 38%;
+    float: left;
+    line-height: 30px;
+}
