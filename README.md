@@ -1,18 +1,21 @@
-# angular demo
+# Angular 2
 
+下载boilerplate  样板文件
 
-##  how to run
-~~~
+[angular2-webpack-starter](https://github.com/AngularClass/angular2-webpack-starter)
+
+~~~sh
+git clone https://github.com/AngularClass/angular2-webpack-starter.git
+
+cd angular2-webpack-starter
+
 npm install
 
-npm start
+npm start 
 
-http://localhost:8080/home
+会自动打开浏览器 http://localhost:3000/
 ~~~
-## how to build
-~~~
-npm run build
-~~~
+
 
 
 ## 组件
